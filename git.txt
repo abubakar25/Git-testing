@@ -1,0 +1,36 @@
+What is git?
+Git is a tool that helps developers keep track of changes made to their code. 
+It allows multiple people to work on the same project and easily merge their changes together. 
+It keeps a history of all the changes, so you can go back to an earlier version if needed. 
+Git also makes it easy to collaborate by allowing you to share your code with others through remote repositories. 
+Overall, Git makes it easier to work on projects with others, keep track of changes, 
+and maintain a reliable and organized codebase.
+
+How to Create Branch in git?
+git branch new-branch 
+Replace new-branch with the desired name for your new branch.
+
+How to switch to any existing branch?
+git checkout new-branch
+
+How to see list of branches ?
+git branch
+
+How to create and switch to newly created branch ?
+git checkout -b new-branch
+
+How to add files to git ?
+git add .
+git add --all
+
+How to check staus of file ?
+git status
+The files are now staged and ready to be committed.
+
+How to commit in git ?
+git commit -m "Add all files"
+
+How to push your commits to the remote repository?
+git push origin branch-name
+
+
